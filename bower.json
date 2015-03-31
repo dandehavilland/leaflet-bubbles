@@ -1,0 +1,24 @@
+{
+  "name": "leaflet-bubbles",
+  "version": "0.0.0",
+  "authors": [
+    "Dan de Havilland <dan@dandehavilland.com>"
+  ],
+  "description": "A simple bubble overlay for Leaflet.JS",
+  "main": "dist/leaflet-bubbles.js",
+  "keywords": [
+    "leaflet",
+    "bubbles"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.5.5"
+  }
+}

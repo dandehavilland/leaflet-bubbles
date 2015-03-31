@@ -1,0 +1,45 @@
+{
+  "name": "leaflet-bubbles",
+  "version": "0.0.0",
+  "description": "Simple bubble overlay for Leaflet.JS",
+  "main": "dist/leaflet-bubbles.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dandehavilland/leaflet-bubbles"
+  },
+  "keywords": [
+    "leaflet",
+    "bubbles"
+  ],
+  "author": "Dan de Havilland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dandehavilland/leaflet-bubbles/issues"
+  },
+  "homepage": "https://github.com/dandehavilland/leaflet-bubbles",
+  "devDependencies": {
+    "uglify-js": "~2.4.19"
+  },
+  "scripts": {
+    "test": "jshint src",
+    "prepublish": "uglifyjs src/leaflet-bubbles.js -o dist/leaflet-bubbles.js"
+  },
+  "jshintConfig": {
+    "quotmark": "single",
+    "globals": {
+      "L": true
+    },
+    "trailing": true,
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "noempty": true,
+    "nonbsp": true,
+    "undef": true,
+    "unused": true,
+    "browser": true
+  }
+}
